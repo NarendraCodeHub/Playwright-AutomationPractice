@@ -13,21 +13,11 @@ export default defineConfig({
 
   outputDir: "./test-results",
 
-  /* Normal Test Report
+  // Normal Test Report and Allure Report
   reporter: [
-    [
-      "html",
-      {
-        outputFolder: "./playwright-report",
-      },
-    ],
-  ],
-*/
-
-// Allure Reporting
-  reporter: [
-    ['list'],  // Default console output
-    ['allure-playwright'], // Add Allure reporting
+    ['list'],  
+    ['html', { outputFolder: './playwright-report' }], // HTML report
+    ['allure-playwright'], // Allure reporting
   ],
   
   /* Run tests in files in parallel */
