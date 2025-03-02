@@ -1,0 +1,22 @@
+{
+  "name": "playwright-automationpractice",
+  "version": "1.0.0",
+  "description": "This repository contains end-to-end automation tests for Practice Automation using Playwright with JavaScript. It covers various test scenarios, including form interactions, UI validations, and navigation flows, ensuring a seamless user experience.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NarendraCodeHub/Playwright-AutomationPractice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NarendraCodeHub/Playwright-AutomationPractice/issues"
+  },
+  "homepage": "https://github.com/NarendraCodeHub/Playwright-AutomationPractice#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.50.1",
+    "@types/node": "^22.13.8"
+  }
+}
