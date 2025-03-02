@@ -34,5 +34,5 @@ test('Move slider and validate value', async ({ page, baseURL }) => {
     // Validate the displayed value : 0
     await expect(valueDisplay).toHaveText('0'); 
 
-
+    
 });
