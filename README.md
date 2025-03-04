@@ -1,54 +1,81 @@
-# Playwright-AutomationPractice
-This repository contains end-to-end automation tests for Practice Automation using Playwright with JavaScript. It covers various test scenarios, including form interactions, UI validations, and navigation flows, ensuring a seamless user experience.
+# **Playwright-AutomationPractice**  
 
-### **Tech Stack:**  
+This repository contains end-to-end automation tests for **Practice Automation** using **Playwright with JavaScript**. It covers various test scenarios, including form interactions, UI validations, and navigation flows, ensuring a seamless user experience. 
+
+---
+
+## **Tech Stack**  
+
 - **Automation Tool:** Playwright  
 - **Language:** JavaScript  
-- **Test Runner:** Playwright Test   
-- **Reporting:** Playwright HTML Reports  
+- **Test Runner:** Playwright Test  
+- **Reporting:** Playwright HTML Reports & Allure Reports  
 
-### **Features:**  
-✔ Cross-browser testing (Chromium, Firefox, WebKit)  
-✔ Headless & headed execution modes   
-✔ Parallel test execution  
-✔ Detailed test reports  
+---
 
-### **Setup & Run Tests:**  
-1. Clone the repository:  
+## **Features**  
+
+✔ Cross-browser testing (**Chromium, Firefox, WebKit**)  
+✔ Supports **Headless & Headed execution**  
+✔ Parallel test execution for **faster testing**  
+✔ Detailed test reports (**HTML & Allure Reports**)  
+
+---
+
+## **Setup & Run Tests**  
+
+1️⃣ **Clone the repository:**  
    ```sh
    git clone https://github.com/NarendraCodeHub/Playwright-AutomationPractice.git
    cd Playwright-AutomationPractice
    ```
-2. Install dependencies:  
+2️⃣ **Install dependencies:**  
    ```sh
    npm install
    ```
-3. Run tests:  
+3️⃣ **Run tests:**  
    ```sh
    npx playwright test
    ```
-4. View reports:  
+4️⃣ **View HTML Report:**  
    ```sh
    npx playwright show-report
    ```
-   
-## Allure Report Setup and Commands
 
-| **Step**                  | **Command**                                        |
-|---------------------------|----------------------------------------------------|
-| Install dependencies      | `npm i -D @playwright/test allure-playwright`      |
-| Run tests with Allure     | `npx playwright test --reporter=allure-playwright` |
-| Generate report           | `npx allure generate allure-results --clean`       |
-| Open report               | `npx allure open`                                  |
+---
 
-## Allure Report Issues and Fixes
+## **Allure Report Setup & Commands**  
 
-| **Issue**                   | **Fix**                                                      |
-|-----------------------------|--------------------------------------------------------------|
-| Command not found           | `npm i -g allure-commandline`                                |
-| No reports found            | `npx allure generate allure-results --clean`                 |
-| 404 Error when opening      | `allure serve allure-results`                                |
-| Still not working           | `rm -rf allure-results allure-report && npx playwright test` |
+1️⃣ **Install dependencies:**  
+   ```sh
+   npm i -D @playwright/test allure-playwright
+   ```  
+2️⃣ **Run tests with Allure reporting:**  
+   ```sh
+   npx playwright test --reporter=allure-playwright
+   ```  
+3️⃣ **Generate Allure report:**  
+   ```sh
+   npx allure generate allure-results --clean
+   ```  
+4️⃣ **Open Allure report:**  
+   ```sh
+   npx allure open
+   ```
 
+---
 
-🚀 **Contributions are welcome!** Feel free to raise issues or submit pull requests.
+## **Common Allure Report Issues & Fixes**  
+
+| **Issue**                    | **Fix**                                                           |
+|------------------------------|-------------------------------------------------------------------|
+| `Command not found`          | Run: `npm i -g allure-commandline`                                |
+| `No reports found`           | Run: `npx allure generate allure-results --clean`                 |
+| `404 Error when opening`     | Run: `allure serve allure-results`                                |
+| Still not working?           | Run: `rm -rf allure-results allure-report && npx playwright test` |
+
+---
+
+🚀 **Contributions are welcome!** Feel free to **raise issues** or **submit pull requests**.  
+
+---
