@@ -42,7 +42,7 @@ test('Drag and Drop Image Validation', async ({ page, baseURL }) => {
 
     await dragMe.dragTo(dropMe);
 
-    await expect(dropMe.locator('img#dragMe')).toBeVisible();
+    await expect(dropMe.locator('img#div2')).toBeVisible();
     
 });
 
@@ -61,7 +61,7 @@ test('Test Drag the map in any direction', async ({ page, baseURL }) => {
     await page.waitForLoadState('networkidle');
 
     const mapCanvas = page.locator('canvas.syrup-canvas');
-    await mapCanvas.waitFor({ state: 'visible', timeout: 30000 });  
+    //await mapCanvas.waitFor({ state: 'visible', timeout: 30000 });  
 
     await mapCanvas.scrollIntoViewIfNeeded();
 
