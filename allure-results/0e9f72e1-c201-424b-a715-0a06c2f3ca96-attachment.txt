@@ -1,0 +1,9 @@
+Total Images Found: 5
+Checking: https://i0.wp.com/practice-automation.com/wp-content/uploads/2023/09/automateNow-Logo.png?fit=180%2C50&ssl=1
+✅ Valid Image: https://i0.wp.com/practice-automation.com/wp-content/uploads/2023/09/automateNow-Logo.png?fit=180%2C50&ssl=1 - Status: 200
+Checking: https://i0.wp.com/practice-automation.com/wp-content/uploads/2022/02/javascript-logo.jpg?resize=169%2C169&ssl=1
+✅ Valid Image: https://i0.wp.com/practice-automation.com/wp-content/uploads/2022/02/javascript-logo.jpg?resize=169%2C169&ssl=1 - Status: 200
+Checking: https://practice-automation.com/broken-images/1.jpg
+Checking: https://practice-automation.com/broken-images/2.jpg
+Checking: https://pixel.wp.com/g.gif?v=ext&blog=220028970&post=1218&tz=-4&srv=practice-automation.com&hp=atomic&ac=2&amp=0&j=1%3A14.5&host=practice-automation.com&ref=https%3A%2F%2Fpractice-automation.com%2F&fcp=0&rand=0.26730638492554437
+✅ Valid Image: https://pixel.wp.com/g.gif?v=ext&blog=220028970&post=1218&tz=-4&srv=practice-automation.com&hp=atomic&ac=2&amp=0&j=1%3A14.5&host=practice-automation.com&ref=https%3A%2F%2Fpractice-automation.com%2F&fcp=0&rand=0.26730638492554437 - Status: 200
