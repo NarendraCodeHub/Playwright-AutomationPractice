@@ -1,0 +1,20 @@
+Total Links Found: 10
+Checking: https://practice-automation.com/broken-links/#main
+ Valid Link: https://practice-automation.com/broken-links/#main - Status: 200
+Checking: https://practice-automation.com/
+ Valid Link: https://practice-automation.com/ - Status: 200
+Checking: https://automatenow-courses.teachable.com/
+ Valid Link: https://automatenow-courses.teachable.com/ - Status: 200
+Checking: https://automatenow.io/
+ Valid Link: https://automatenow.io/ - Status: 200
+Checking: https://practice-automation.com/
+ Valid Link: https://practice-automation.com/ - Status: 200
+Checking: https://practice-automation.com/broken-links/missing-page.html
+Checking: https://automatenow.io/http-response-codes-in-api-testing/
+ Valid Link: https://automatenow.io/http-response-codes-in-api-testing/ - Status: 200
+Checking: https://linktr.ee/automateNow
+ Valid Link: https://linktr.ee/automateNow - Status: 200
+Checking: https://automatenow.io/about/
+ Valid Link: https://automatenow.io/about/ - Status: 200
+Checking: https://practice-automation.com/broken-links/#body
+ Valid Link: https://practice-automation.com/broken-links/#body - Status: 200

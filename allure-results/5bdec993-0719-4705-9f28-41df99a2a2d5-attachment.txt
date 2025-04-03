@@ -1,0 +1,2 @@
+Total Links Found: 10
+Checking: https://practice-automation.com/broken-links/#main
